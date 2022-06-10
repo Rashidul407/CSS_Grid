@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.welcome{
+    text-align: center;
+    color: chocolate;
+    margin-top: .25rem;
+}
+
+.container{
+    /* border: 1px solid black; */
+    display: grid;
+    justify-content: center;
+    grid-gap: 1rem;
+    margin-top: 2rem;
+    grid-template-columns: 10fr 20fr;
+    
+}
+
+.one, .two, .three, .four, .five, .six{
+    
+    /* width: 500px;
+    height: 40px; */
+    text-align: center;
+    /* padding-top: 1.25rem; */
+    margin-left: 2rem;
+    /* background-color: blue; */
+    
+}
+
+.one{
+    background-color: yellow;
+    padding-bottom: .25rem;
+}
+.two{
+    background-color:brown;
+    padding-bottom: .25rem;
+}
+.three{
+    background-color:darkorange;
+    padding-bottom: .25rem;
+}
+.four{
+    background-color:darkmagenta;
+    padding-bottom: .25rem;
+}
+.five{
+    background-color: hotpink;
+    padding-bottom: .25rem;
+}
+.six{
+    background-color:lightcoral;
+    padding-bottom: .25rem;
+}
+
+.one:hover{
+    cursor: pointer;
+    background-color: brown;
+    transition: all 1.2s;
+    
+}
+
